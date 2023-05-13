@@ -1,0 +1,511 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+	
+
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.2em;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background: #303030;
+}
+.header .logo{
+	width: 100%;
+}
+.header .menu{
+	display: block;
+	width: 100%;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+}
+.header .menu li{
+	display: inline-block;
+	list-style: none;
+}
+.header .menu li a{
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+	margin: 23px 19px 0px 19px;
+	font-family: 'Oswald', sans-serif;
+}
+.header .menu li a:focus{
+	color: #e8631c;
+}
+.header .search{
+	width: 100%;
+}
+.header .search a img{
+	display: block;
+	width: 14%;
+	margin: 28px 0px 0px;
+	float: right;
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 110px 0px 80px;
+	background: url("../images/bi-1.png") center top no-repeat;
+	background-size: cover;
+}
+.banner h1{
+	font-size: 110px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #fff;
+	margin: 150px 0px 0px 0px;
+
+}
+.banner p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0px 0px;
+}
+.banner .button{
+	width: 100%;
+	padding: 10px 0px 0px;
+}
+.banner .button .btn-1{
+	font-size: 20px;
+	font-weight: 400;
+	padding: 10px 65px;
+	background: #e8631c;
+	color: #fff;
+	border: 1px solid #e8631c;
+	text-transform: uppercase;
+	border-radius: 3px;
+	margin: 40px 0px 20px;
+	transition: 1s;
+	font-family: 'Oswald', sans-serif;
+}
+.banner .button .btn-1:hover{
+	background: transparent;
+	border: 1px solid #999999;
+	color: #e8631c;
+}
+.banner .button .btn-1:focus{
+	background: transparent;
+	border: 1px solid #e8631c;
+	color: #e8631c;
+}
+.feature{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 100px;
+	background: url("../images/bi-2.png") center top no-repeat;
+	background-size: cover;
+}
+.feature h2{
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 15px 0px 0px 0px;
+	text-align: center;
+
+}
+.feature p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0px 60px;
+    text-align: center;
+}
+.feature .inner-feature{
+	width: 90%;
+	float: left;
+}
+.feature .inner-feature .feature-inside{
+	width: 100%;
+	background: #303030;
+	text-align: center;
+	padding: 40px 0px 40px;
+}
+.feature .inner-feature .feature-inside h4{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 0px 0px 20px;
+	color: #fff;
+}
+.feature .inner-feature .feature-inside p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+.feature-2{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 100px;
+	background: url("../images/bi-3.png") center top no-repeat;
+	background-size: cover;
+}
+.feature-2 h2{
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 15px 0px 0px 0px;
+	text-align: center;
+}
+.feature-2 p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0px 60px;
+    text-align: center;
+}
+.feature-2 .inner-feature{
+	width: 90%;
+	float: left;
+	padding: 60px 20px;
+	background: #e8631c;
+	border: 1px solid #e8631c;
+	border-radius: 7px;
+	text-align: center;
+}
+.feature-2 .inner-feature img{
+	width: 37%;
+	margin: 20px 0px 40px;
+}
+.feature-2 .inner-feature h4{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 0px 0px 20px;
+	color: #fff;
+}
+.feature-2 .inner-feature p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.feature-2 .inner-feature .btn-primary{
+	font-size: 20px;
+	font-weight: 400;
+	padding: 10px 94px;
+	background: #303030;
+	color: #fff;
+	border: 1px solid #303030;
+	border-radius: 3px;
+	transition: 1s;
+	font-family: 'Oswald', sans-serif;
+}
+.feature-2 .inner-feature .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.feature-2 .inner-feature .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.banner-2{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 200px;
+	background: url("../images/bi-4.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-2 .inner-banner{
+	width: 100%;
+	float: left;
+	padding: 100px 0px 100px 80px;
+}
+.banner-2 .inner-banner h2{
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 180px 0px 0px 0px;
+}
+.banner-2 .inner-banner p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0px 60px;
+}
+.banner-2 .inner-banner .btn-primary{
+	font-size: 20px;
+	font-weight: 400;
+	padding: 10px 85px;
+	background: #303030;
+	color: #fff;
+	border: 1px solid #303030;
+	text-transform: uppercase;
+	border-radius: 3px;
+	transition: 1s;
+	font-family: 'Oswald', sans-serif;
+	margin: 20px 0px 80px;
+}
+.banner-2 .inner-banner .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.banner-2 .inner-banner .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.banner-3{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 200px;
+	background: url("../images/bi-5.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-3 .inner-banner{
+	width: 100%;
+	float: left;
+	padding: 100px 0px 100px 80px;
+}
+.banner-3 .inner-banner h2{
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 180px 0px 0px 0px;
+}
+.banner-3 .inner-banner p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0px 60px;
+}
+.banner-3 .inner-banner .btn-primary{
+	font-size: 20px;
+	font-weight: 400;
+	padding: 10px 85px;
+	background: #303030;
+	color: #fff;
+	border: 1px solid #303030;
+	text-transform: uppercase;
+	border-radius: 3px;
+	transition: 1s;
+	font-family: 'Oswald', sans-serif;
+	margin: 20px 0px 80px;
+}
+.banner-3 .inner-banner .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.banner-3 .inner-banner .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.banner-4{
+	width: 100%;
+	float: left;
+	padding: 60px 0px 100px;
+	background: #303030;
+}
+.banner-4 .inner-banner{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 60px;
+}
+.banner-4 h2{
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 80px 0px 0px;
+	 text-align: center;
+}
+.banner-4 p{
+	font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0px 0px;
+    text-align: center;
+}
+.banner-4 .inner-banner h2{
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 180px 0px 0px 0px;
+}
+.banner-4 .inner-banner p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0px 60px;
+    text-transform: capitalize;
+}
+.banner-5{
+	width: 100%;
+	float: left;
+	padding: 280px 0px 150px;
+	background: url("../images/bi-6.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-5 p{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    margin: 130px 0px 60px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.banner-5 h3{
+	font-size: 40px;
+	font-weight: 600;
+	margin: 20px 0px 200px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+.banner-6{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 140px;
+	background: url("../images/bi-8.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-6 h2{
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 40px 0px 40px;
+	text-align: center;
+}
+.banner-6 p{
+	font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px 0px 60px;
+    text-align: center;
+}
+.banner-6 .form-control{
+	width: 30%;
+	float: left;
+	margin: 0px 0px 0px 380px;
+	border: 1px solid #fff;
+	border-radius: 0px;
+	background: #fff;
+	color: #303030;
+}
+.banner-6 .form-control:focus{
+	box-shadow: none;
+}
+.banner-6 .btn-outline{
+	width: 10%;
+	border: 1px solid #303030;
+	border-radius: 0px;
+	background: #303030;
+	color: #fff;
+    margin: 0px 320px 0px 0px;
+    text-transform: uppercase;
+}
+.banner-6 .btn-outline:hover{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.banner-6 .btn-outline:focus{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 100px 40px;
+	background: #303030;
+}
+.footer .inner-banner-1{
+	width: 100%;
+	float: left;
+	padding: 0px 40px;
+}
+.footer .inner-banner-1 ul{
+	width: 100%;
+	margin: 0px 0px 0px -30px;
+}
+.footer .inner-banner-1 h4{
+	font-size: 30px;
+	width: 400;
+	color: #fff;
+	margin: 10px 0px 10px;
+	text-transform: uppercase;
+}
+.footer .inner-banner-1 p{
+	font-size: 18px;
+	line-height: 1.7em;
+	margin: 20px 0px 10px;
+	color: #fff;
+}
+.footer .inner-banner-1 li{
+	display: inline-block;
+	list-style: none;
+}
+.footer .inner-banner-1 li a{
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	margin: 20px 15px 20px 0px;
+}
+.footer .inner-banner-2{
+	width: 100%;
+	float: left;
+	padding: 0px 20px;
+}
+.footer .inner-banner-2 h4{
+	font-size: 30px;
+	width: 400;
+	color: #fff;
+	margin: 10px 0px 10px;
+	text-transform: uppercase;
+}
+.footer .inner-banner-2 ul{
+	width: 100%;
+	margin: 0px 0px 0px -30px;
+}
+.footer .inner-banner-2 li{
+	display: block;
+	list-style: none;
+}
+.footer .inner-banner-2 li a{
+	display: block;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	margin: 20px 15px 0px 0px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: capitalize;
+}
